@@ -3,3 +3,4 @@ npm i react-router-dom
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 npm i react-circular-progressbar
 npm install recharts
+npm i @mui/x-data-grid
