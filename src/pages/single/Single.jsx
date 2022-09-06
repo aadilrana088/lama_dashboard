@@ -2,7 +2,7 @@ import './single.scss';
 import Sidebar from '../../component/sidebar/Sidebar';
 import Navbar from '../../component/navbar/Navbar';
 import Chart from '../../component/chart/Chart';
-// import List from '../../component/table/Table';
+import List from '../../component/table/Table';
 
 const Single = () => {
     return (
@@ -56,7 +56,7 @@ const Single = () => {
                 </div>
                 <div className="bottom">
                     <h1 className="title">Last Transactions</h1>
-                    {/* <List /> */}
+                    <List />
                 </div>
             </div>
         </div>
