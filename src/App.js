@@ -5,10 +5,11 @@ import List from './pages/list/List';
 import Single from './pages/single/Single';
 import New from './pages/new/New';
 import { userInputs, productInputs } from './formSource';
+import './style/dark.scss';
 
 function App() {
     return (
-        <>
+        <div className="app dark">
             <BrowserRouter>
                 <Routes>
                     <Route path="/">
@@ -43,7 +44,7 @@ function App() {
                     </Route>
                 </Routes>
             </BrowserRouter>
-        </>
+        </div>
     );
 }
 
