@@ -1,3 +1,8 @@
+Created dashboard using context provider and scss.
+Use Material UI,
+
+Repo Name: https://github.com/aadilrana088/lama_dashboard.git
+
 npm i sass
 npm i react-router-dom
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
